@@ -38,4 +38,4 @@ with DAG(
         task_id="end"
     )
 
-    start >> hello_task >> goodbye_task >> end
+start >> hello_task >> goodbye_task >> end >>
